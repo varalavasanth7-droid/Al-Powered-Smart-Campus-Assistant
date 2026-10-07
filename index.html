@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI-Powered Smart Campus Assistant">
+  <title>AI-Powered Smart Campus Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand">
+      <div class="brand-icon">AI</div>
+      <span>Smart Campus</span>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#assistant">Assistant</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <span class="badge">🤖 AI-Powered Campus</span>
+        <h1>Your <span>Smart Campus</span> Assistant</h1>
+        <p>
+          Get instant help with campus information, events, classrooms,
+          schedules, announcements and student services.
+        </p>
+        <div class="hero-buttons">
+          <button id="startBtn" class="primary-btn">Start Assistant</button>
+          <a href="#features" class="secondary-btn">Explore Features</a>
+        </div>
+      </div>
+
+      <div class="logo-card">
+        <div class="campus-logo">
+          <div class="building">🏫</div>
+          <div class="robot">🤖</div>
+          <div class="book">📘</div>
+          <div class="chat">•••</div>
+        </div>
+        <h2>AI-Powered</h2>
+        <p>Smart Campus Assistant</p>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="section-title">
+        <span class="badge">SMART FEATURES</span>
+        <h2>Everything students need</h2>
+        <p>One intelligent assistant for your entire campus.</p>
+      </div>
+
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-icon">📚</div>
+          <h3>Academic Help</h3>
+          <p>Find courses, classrooms, faculty information and academic resources.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">📅</div>
+          <h3>Campus Events</h3>
+          <p>Discover upcoming events, workshops, clubs and important activities.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">📢</div>
+          <h3>Announcements</h3>
+          <p>Stay updated with important campus notices and student announcements.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🧭</div>
+          <h3>Campus Navigation</h3>
+          <p>Quickly locate departments, labs, libraries, offices and facilities.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="assistant" class="assistant-section">
+      <div class="assistant-card">
+        <div class="assistant-header">
+          <div>
+            <span class="status-dot"></span>
+            <strong>Campus AI Assistant</strong>
+          </div>
+          <span class="online">Online</span>
+        </div>
+
+        <div id="chatBox" class="chat-box">
+          <div class="message bot">
+            👋 Hello! I'm your Smart Campus Assistant. Ask me about classrooms,
+            events, schedules or campus facilities.
+          </div>
+        </div>
+
+        <div class="quick-actions">
+          <button data-question="Where is the library?">📍 Library</button>
+          <button data-question="What events are coming up?">📅 Events</button>
+          <button data-question="Where is the computer lab?">💻 Computer Lab</button>
+        </div>
+
+        <form id="chatForm" class="chat-form">
+          <input id="userInput" type="text" placeholder="Ask your campus assistant..." autocomplete="off">
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> AI-Powered Smart Campus Assistant</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
